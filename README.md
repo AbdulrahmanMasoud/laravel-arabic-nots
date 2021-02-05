@@ -3,7 +3,7 @@
 دي عشان اشغل المشروع بتاعي علي اللوكل هوست 
 
 --------------------------------
-#Make New Controller
+# Make New Controller.
 
 ``php artisan make:controller ControlerName``
 
@@ -12,14 +12,14 @@
 ``php artisan make:controller ControlerName -r``
 
 --------------------------------
-#Make New Model
+# Make New Model
 
 ``php artisan make:model ModelName -m``
 
 ده بيعملي مودل جديد ولما انا ضيفت ال -ام بيعملي المايجريشن بتاعتي 
 
 ---------------------------------
-#Migrations
+# Migrations
 
 ``php artisan migrate``
 
