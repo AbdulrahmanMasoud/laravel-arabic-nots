@@ -195,6 +195,16 @@ public function toArray($request)
 
 وبكتب في الاخر الاسم وبعده كلمه كوليكشن
 
+-----------
+# Pagination
+
+```$users = User::where('name', '=', 'Ahmed')->paginate(15);```
+
+ده عشان يعمل باجينيشن في الصفحه انا بكتب الكويري بتعتي عادي جدا و في الاخر احط الميثود  باجينيت و احدد العدد  اللي انا عايزه في الصفحه  كام ريكورد
+
+ممكن تشوف الميثودث الخاصه بالباجينيشن من هنا
+
+<a href="https://laravel.com/docs/8.x/pagination#paginator-instance-methods">Pagination Methods</a>
 
 
 
